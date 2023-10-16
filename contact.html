@@ -6,7 +6,6 @@
     <title>Home</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='javascript.js'></script>
 </head>
 <body>
     <nav>
@@ -21,15 +20,23 @@
         </div>
     </nav>
     <main>
-        <h2>Aspiring developer</h2>
-        <img src="https://i.pinimg.com/originals/57/3b/76/573b76b94e8c71cec32b98a17560914a.gif" alt="cute cat" class="catgif">
-               <div class="inText">
-                <center>
-                <p>hoping to be a part of the creation of the bigger picture<br>
-                build beneficial projects for myself and others<br>
-                learn and adapt to new technology</p>
-                </center>
-                </div>
+        <h2>contact me:</h2>
+        <div class ="contactForm">
+            <form action="actionpage.html">
+                <label for="name">Name:</label><br>
+                <input type="text" id="fname" name="name"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" name="email"><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Write your message here!" style="height:100px"></textarea><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
     </main>
+
 </body>
 </html>
